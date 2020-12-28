@@ -57,7 +57,7 @@ if (isset($_POST["nome"]) and isset($_POST["e-mail"]) and isset($_POST["telefone
 		$ok = true;
 	}
 	if ($ok) {
-		$email = ""; //email do cliente
+		$email = "institutoriometropole@gmail.com"; //email do cliente
 		$titulo = "Contato IRM";
 		$msg = "Nome: " . $nome . "<br>
     	Email: " . $remetente . "<br>
